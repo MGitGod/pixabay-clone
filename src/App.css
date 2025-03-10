@@ -22,6 +22,10 @@
 
 /* Media query for mobile devices */
 @media (max-width: 480px) {
+  .container h2 {
+    margin-bottom: 12px;
+    font-size: 2rem;
+  }
   .container input {
     min-width: 200px; /* Adjusted width for mobile */
     width: 80%; /* Make it responsive */
