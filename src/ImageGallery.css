@@ -39,7 +39,7 @@
 @media (max-width: 480px) {
   .images-wrapper {
       grid-template-columns: repeat(1, 1fr); /* 2 columns on small screens */
-      place-content: center;
+      place-items: center;
       justify-content: center;
       grid-gap: 8px; /* Increased gap for smaller screens */
   }
