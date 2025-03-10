@@ -9,7 +9,6 @@
 .image {
   width: 100%; /* Make image take full width of the grid cell */
   height: auto; /* Maintain aspect ratio */
-  margin: 0 auto;
 }
 
 .image img {
@@ -40,11 +39,11 @@
 @media (max-width: 480px) {
   .images-wrapper {
       grid-template-columns: repeat(1, 1fr); /* 2 columns on small screens */
+      grid-gap: 8px; /* Increased gap for smaller screens */
   }
   .image img {
       width: 80%;
       height: auto;
-      margin: 0 auto;
   }
 }
 
