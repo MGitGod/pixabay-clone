@@ -44,11 +44,6 @@
       grid-gap: 8px; /* Increased gap for smaller screens */
   }
   .image {
-      width: 80%;
-      height: auto;
-  }
-  .image img {
-      width: 80%;
-      height: auto;
+      padding: 8px;
   }
 }
