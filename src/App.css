@@ -1,3 +1,4 @@
+/* pixabay-clone/src/App.css */
 .container {
   width: 100%;
   height: 100vh;
@@ -13,8 +14,16 @@
 }
 
 .container input {
-  min-width: 360px;
+  min-width: 360px; /* Default width */
   padding: 5px 12px;
   margin-bottom: 36px;
   outline: none;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .container input {
+    min-width: 200px; /* Adjusted width for mobile */
+    width: 80%; /* Make it responsive */
+  }
 }
