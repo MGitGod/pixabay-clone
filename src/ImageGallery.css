@@ -9,6 +9,7 @@
 .image {
   width: 100%; /* Make image take full width of the grid cell */
   height: auto; /* Maintain aspect ratio */
+  margin: 0 auto;
 }
 
 .image img {
